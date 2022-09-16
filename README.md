@@ -18,9 +18,6 @@ OData Binding needs to be performed by adding new fields to the profile. This bi
 
 **Step-1:** Find the Schema Name of the field to be mapped from D365 settings. 
 
-![image](https://user-images.githubusercontent.com/12267939/177551508-bc51b67e-d99a-4ef3-a09d-ca6d6a952158.png)
-
-
 **Step-2:** Add OData Binding @odata.bind in the field’s name. For some fields, _<parent-object-name> in singular needs to be appended in the name, e.g., regardingobjectid can be an account or a contact, so for an account regardingobjectid should be appended with _account. Upper-case/Lower-case alphabets need to be taken care of, along with trial and error approach to formulate the key.
   
 | Object        | Field       | Binding Field      | Sample Value    |
