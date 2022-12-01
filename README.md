@@ -2,6 +2,7 @@
 
 ## Problem Statement:
 When we pass values to Lookup/ID fields in Microsoft Dynamics 365 (D365) to perform Create or Update operation, we can encounter the below error.
+
 **[400] (0x0) CRM do not support direct update of Entity Reference properties, Use Navigation properties instead. [HTTP/1.1 400 Bad Request]**
 
 Below are few fields and their respective objects which can throw the above error.
